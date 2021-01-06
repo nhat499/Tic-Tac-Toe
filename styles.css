@@ -1,0 +1,84 @@
+/*
+  Name: Nhat Trang
+  Date: may 6 , 2020
+  Section: CSE 154 AI
+
+  this is the the css for my tic tac toe
+*/
+
+body {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main, body, section {
+  display: flex;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+}
+
+#topright, #middleright, #topleft, #topmiddle, #middleleft, #middlemiddle {
+  border-bottom: solid black 3px;
+}
+
+#bottomleft, #bottommiddle, #topleft, #topmiddle, #middleleft, #middlemiddle {
+  border-right: solid black 3px;
+}
+
+.win {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  flex-wrap: wrap;
+  height: 456px;
+  width: 456px;
+  padding: 30px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+}
+
+#winner {
+  width: 200px;
+  height: 200px;
+  background: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+#x, #o {
+  border: 3px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+#new-img {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  height: 20px;
+}
+
+#new-img-x, #new-img-o {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

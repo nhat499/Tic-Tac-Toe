@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+  Name: Nhat Trang
+  Date: April 9, 2020
+  Section: CSE 154 AI
+
+  This is the html for tic tac toe website
+  it include a 3X3 board and the representative icon
+-->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <main>
+      <section id="x">
+        <p>It is turn</p>
+        <img class="x" src="img/x.png" alt="x">
+      </section>
+      <section>
+        <div id="topleft"></div>
+        <div id="topmiddle"></div>
+        <div id="topright"></div>
+        <div id="middleleft"></div>
+        <div id="middlemiddle"></div>
+        <div id="middleright"></div>
+        <div id="bottomleft"></div>
+        <div id="bottommiddle"></div>
+        <div id="bottomright"></div>
+      </section>
+      <section id="o">
+        <p>It is turn</p>
+        <img class="o hidden" src="img/o.png" alt="o">
+      </section>
+    </main>
+    <button>reset</button>
+    <h2>change Image?</h2>
+    <h3>pick a Number!</h3>
+    <aside id="new-img">
+      <aside id="new-img-x">
+        <p>current X</p>
+        <img class="x" src="img/x.png" alt="x">
+      </aside>
+      <input id="new-x" type="number" min="1" max="803">
+      <input id="new-o" type="number" min="1" max="803">
+      <aside id="new-img-o">
+        <p>current O</p>
+        <img class="o" src="img/o.png" alt="x">
+      </aside>
+    </aside>
+    <aside>
+      <button id="submit-x">SubmitX</button>
+      <button id="submit-o">SubmitO</button>
+    </aside>
+  </body>
+</html>
