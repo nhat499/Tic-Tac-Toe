@@ -11,8 +11,8 @@
 "use strict";
 (function() {
   let count = 0;
-  let imgX = "img/x.PNG";
-  let imgO = "img/o.PNG";
+  let imgX = "img/x.png";
+  let imgO = "img/o.png";
   const BASE_URL = "https://pokeapi.co/api/v2/";
 
   window.addEventListener("load", init);
@@ -140,7 +140,7 @@
     let section = main.children[1];
     for (let i = 0; i < section.children.length; i++) {
       let blank = gen("img");
-      blank.src = "img/blank.PNG";
+      blank.src = "img/blank.png";
       blank.alt = "blank";
       blank.classList.add("blank");
       let div = section.children[i];
